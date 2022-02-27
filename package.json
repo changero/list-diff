@@ -1,0 +1,26 @@
+{
+  "name": "@jaocer/list-diff",
+  "version": "0.0.1",
+  "description": "计算两个列表的朴素diff算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changero/list-diff.git"
+  },
+  "keywords": [
+    "diff"
+  ],
+  "author": "changero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changero/list-diff/issues"
+  },
+  "homepage": "https://github.com/changero/list-diff#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1"
+  }
+}
