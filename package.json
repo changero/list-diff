@@ -4,7 +4,7 @@
   "description": "计算两个列表的朴素diff算法",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest -c ./jest.config.js"
   },
   "repository": {
     "type": "git",
