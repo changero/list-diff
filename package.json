@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -c ./jest.config.js",
-    "coveralls": "jest  && coveralls < coverage/lcov.info && rm -rf ./coverage"
+    "coveralls": "jest --coverage && coveralls < coverage/lcov.info && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",

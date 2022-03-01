@@ -1,6 +1,6 @@
 # list-diff
 
-[![test](https://circleci.com/gh/changero/list-diff/tree/master.png?style=shield)](https://circleci.com/gh/changero/list-diff)
+[![Coverage Status](https://coveralls.io/repos/github/changero/list-diff/badge.svg?branch=main)](https://coveralls.io/github/changero/list-diff?branch=main)
 
 计算两个列表的朴素 diff 算法
 
