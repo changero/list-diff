@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -c ./jest.config.js",
-    "coveralls": "jest --coverage && coveralls < coverage/lcov.info && rm -rf ./coverage"
+    "coverage": "jest --coverage && codecov && rm -rf coverage"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/changero/list-diff#readme",
   "devDependencies": {
-    "coveralls": "^3.1.1",
+    "codecov": "^3.8.3",
     "jest": "^27.5.1",
     "prettier": "^2.5.1"
   }
