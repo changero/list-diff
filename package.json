@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -c ./jest.config.js",
-    "coverage": "jest --coverage && codecov && rm -rf coverage"
+    "coverage": "jest --coverage --testPathIgnorePatterns=\"/node_modules/|/__ignore__/\" && codecov && rm -rf coverage"
   },
   "repository": {
     "type": "git",
